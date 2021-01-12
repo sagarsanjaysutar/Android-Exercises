@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgunmetal"
+    tools:context=".thread">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="0dp"
+            android:text="Thread"
+            android:textAlignment="textStart"
+            android:textColor="@color/lightestgunmetal"
+            android:textSize="40sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="60dp"
+            android:layout_height="4dp"
+            android:layout_marginStart="20dp"
+            android:background="@color/lightestgunmetal"
+            android:padding="0dp" />
+
+        <TextView
+            android:id="@+id/volley_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="0dp"
+            android:text="Both the loops run on different background thread."
+            android:textColor="#ffffff"
+            android:textFontWeight="600"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/thread_tv1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Thread 1"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:lines="2"
+
+            />
+
+        <Button
+            android:id="@+id/thread_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_toEndOf="@id/thread_tv1"
+            android:background="@drawable/rectangle"
+            android:fontFamily="@font/poppins_light"
+            android:text="Start thread 1"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/thread_tv2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thread_tv1"
+            android:layout_marginTop="30dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Thread 2"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:lines="2"
+            />
+
+        <Button
+            android:id="@+id/thread_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_margin="10dp"
+            android:layout_below="@id/thread_tv1"
+            android:layout_toEndOf="@id/thread_tv2"
+            android:background="@drawable/rectangle"
+            android:fontFamily="@font/poppins_light"
+            android:text="Start thread 2"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+
+
+            />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

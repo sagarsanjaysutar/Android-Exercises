@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F25F2E</color>
+    <color name="colorPrimaryDark">#752E16</color>
+    <color name="colorAccent">#B34622</color>
+    <color name="ube">#8b78d1</color>
+    <color name="darkgunmetal">#0d1f2d</color>
+    <color name="lightgunmetal">#183953</color>
+    <color name="lightergunmetal">#235378</color>
+    <color name="lightestgunmetal">#48ADFB</color>
+    <color name="lightestgunmetal_trans">#9048ADFB</color>
+    <color name="paynesgrey">#546a7b</color>
+    <color name="palepink">#fae1df</color>
+    <color name="electricblue">#54f2f2</color>
+    <color name="trans_ube">#658B78D1</color>
+    <color name="trans">#00FFFFFF</color>
+    <color name="trans_gray">#8A000000</color>
+
+</resources>

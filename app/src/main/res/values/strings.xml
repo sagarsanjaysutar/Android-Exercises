@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Practicals</string>
+    <string name="submit">Submit</string>
+    <string-array name="all_prac">
+
+        <item name="prac_1_title"> 1. Introduction to Android</item>
+        <item name="prac_1_desc">Hello World program. </item>
+
+        <item name="prac_2_title">2. Programming Resources</item>
+        <item name="prac_2_desc">Android Resources: (Color, Theme, item, Drawable, Dimension, Image)</item>
+
+        <item name="prac_3_title">3. Programming Activities and fragments.</item>
+        <item name="prac_3_desc">Activity  Life  Cycle, Activity  methods,  Multiple  Activities,  Life  Cycle  of fragments and multiple fragments. </item>
+
+        <item name="prac_4_title">4. Programs related to different Layouts.</item>
+        <item name="prac_4_desc">Coordinate, Linear, Relative, Table, Absolute, Frame, List View, Grid View.</item>
+
+        <item name="prac_5_title">5. Programming UI element.</item>
+        <item name="prac_5_desc">AppBar, Fragments, UI Components</item>
+
+        <item name="prac_6_title"> 6. Programming menus, dialog, dialog fragments</item>
+        <item name="prac_6_desc"> </item>
+
+        <item name="prac_7_title"> 7. Programs on Intents, Events, Listeners and Adapters</item>
+        <item name="prac_7_desc">The Android Intent Class, Using Events and Event Listeners. </item>
+
+        <item name="prac_8_title">8. Programs on Services, notification and broadcast receivers </item>
+        <item name="prac_8_desc"> </item>
+
+        <item name="prac_9_title">9. Database Programming with SQLite.</item>
+        <item name="prac_9_desc"> </item>
+
+        <item name="prac_10_title"> 10. Programming threads, handles and asynchronized programs.</item>
+        <item name="prac_10_desc"> </item>
+
+        <item name="prac_11_title">11. Programming Media API and Telephone API.</item>
+        <item name="prac_11_desc"> </item>
+
+        <item name="prac_12_title">12. Programming Security and permissions</item>
+        <item name="prac_12_desc"> </item>
+
+        <item name="prac_13_title">13. Programming Network Communications and Services (JSON)</item>
+        <item name="prac_13_desc"> </item>
+    </string-array>
+</resources>

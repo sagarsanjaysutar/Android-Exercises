@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.practicals">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/blur"
+        android:label="Practicals"
+        android:roundIcon="@drawable/blur"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+
+        >
+        <activity android:name=".resources"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".life_cycle"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".hello_world"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".practical_list"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".thread"
+            android:screenOrientation="portrait"
+            />
+
+
+        <activity android:name=".custom_dialog"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".menus_dialog"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".sql_lite"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".sql_display"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".security_permission"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".volley"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".media_telephone"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".service"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".fragment_modal"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".appBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".intent"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".layouts"
+            android:screenOrientation="portrait"/>
+
+        <service
+            android:name=".service_class"
+            android:enabled="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
